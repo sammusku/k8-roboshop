@@ -28,8 +28,8 @@ spec:
    spec:
     containers:
      - name: mongodb
-       image: sam123yuktha:1.0.0
-
+       image: sam123yuktha/mongodb:1.0.0
+---
 #Creating Service for POD to POD communication
 
 apiVersion: v1
