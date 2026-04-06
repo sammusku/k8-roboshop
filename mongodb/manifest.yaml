@@ -29,9 +29,9 @@ spec:
     containers:
      - name: mongodb
        image: sam123yuktha:1.0.0
-  ------
-  #Creating Service for POD to POD communication
-  ---
+
+#Creating Service for POD to POD communication
+
 apiVersion: v1
 kind: Service
 metadata:
